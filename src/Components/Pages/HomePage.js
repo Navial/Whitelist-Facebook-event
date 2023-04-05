@@ -1,5 +1,6 @@
 const HomePage = () => {
-  const main = document.querySelector('main');
+	const main = document.querySelector('main');
+
 
   main.innerHTML = `
 		<div id="header" class="text-center">
@@ -59,7 +60,6 @@ const HomePage = () => {
 				</table>
 		</div>
   `;
-
   const searchBtn = document.querySelector('#searchBtn');
   searchBtn.addEventListener('click', async (e) => {
     e.preventDefault();
